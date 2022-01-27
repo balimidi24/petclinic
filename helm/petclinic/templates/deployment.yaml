@@ -28,8 +28,8 @@ spec:
             cpu: '800m'
             memory: '400Mi'
           requests:
-            cpu: '400m'
-            memory: '500Mi'
+            cpu: '800m'
+            memory: '400Mi'
         ports:
         - containerPort: 8080
       imagePullSecrets:
